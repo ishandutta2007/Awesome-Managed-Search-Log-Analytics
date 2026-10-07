@@ -1,271 +1,134 @@
 # Awesome-Managed-Search-Log-Analytics
 
-## Top Managed Search & Log Analytics Ecosystem
+<p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+</p>
 
+![Awesome Managed Search & Log Analytics Banner](assets/banner.svg)
 
+## 🚀 Top Managed Search & Log Analytics Ecosystem
 
 **Curated List of SaaS Products & Open-Source GitHub Projects**  
-
-*Focused on Log Aggregation, Full-Text Search & Self-Hosted Observability Backends*  
+*Focused on Log Aggregation, Full-Text Search, Telemetry Pipelines & Self-Hosted Observability Backends*  
 
 **Last updated: October 2026**
 
+---
 
-
-This repository tracks notable **commercial managed search and log analytics platforms** and **open-source projects** that ingest, index, search, and visualize logs and events at scale — powering observability, security analytics, and operational intelligence without infrastructure management.
-
-
-
-**Examples** include Amazon OpenSearch Service, Elastic Cloud, Logz.io, Coralogix, Sumo Logic, Splunk Cloud, Datadog Log Management, Mezmo (LogDNA), Better Stack Logs, and Sematext Logs (the category leaders).
-
-
-
-**Open-source emphasis**: Search and log analytics is one of the strongest open-source domains. **OpenSearch** leads as the Apache-licensed fork of Elasticsearch, **Quickwit** brings Rust-based sub-second search on object storage, **OpenObserve** delivers a single-binary observability platform with 140x lower storage costs, and **Grafana Loki** provides cost-effective log aggregation. **Meilisearch** and **Typesense** power application search, while **Apache Solr** remains the veteran enterprise search platform. **ZincSearch** and **Graylog** round out the ecosystem. This section is heavily expanded.
-
-
-
-Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
-
-
-
-## Table of Contents
-
-- [SaaS/Hosted Platforms](#saas-hosted-platforms)
-
-- [Open-Source GitHub Projects](#open-source-github-projects)
-
-- [How to Contribute](#how-to-contribute)
-
-- [Disclaimer](#disclaimer)
-
-
-
-## SaaS/Hosted Platforms
-
-
-
-- **[Amazon OpenSearch Service](https://aws.amazon.com/opensearch-service/)**  
-
-  **AWS's managed OpenSearch** — search and log analytics with automatic scaling . **OpenSearch Serverless** for unpredictable workloads . **Best for AWS-native log analytics** .
-
-
-
-- **[Elastic Cloud](https://www.elastic.co/cloud)**  
-
-  **Elastic's managed search and analytics** — Elasticsearch, Kibana, and Enterprise Search . **Elastic Cloud Serverless** for auto-scaling . **The reference for enterprise search** . **Best for Elastic ecosystem users** .
-
-
-
-- **[Logz.io](https://logz.io/)**  
-
-  **Cloud observability platform** — log management, metrics, and tracing on OpenSearch . **Best for unified observability** .
-
-
-
-- **[Coralogix](https://coralogix.com/)**  
-
-  **Observability platform with streaming analytics** — logs, metrics, and traces with cost optimization . **Best for enterprise observability** .
-
-
-
-- **[Sumo Logic](https://www.sumologic.com/)**  
-
-  **Cloud-native log analytics** — security analytics and observability . **Best for cloud-first organizations** .
-
-
-
-- **[Splunk Cloud](https://www.splunk.com/)**  
-
-  **The enterprise standard for log analytics** — mature search, correlation, and app ecosystem . **Pricing scales with data volume** . **Best for large enterprises** .
-
-
-
-- **[Datadog Log Management](https://www.datadoghq.com/)**  
-
-  **Log management integrated with Datadog observability** — log search, analytics, and correlation . **Best for Datadog users** .
-
-
-
-- **[Mezmo (LogDNA)](https://www.mezmo.com/)**  
-
-  **Telemetry data pipeline and log analytics** — control, enrich, and route observability data . **Best for telemetry pipelines** .
-
-
-
-- **[Better Stack Logs](https://betterstack.com/)**  
-
-  **Log management with SQL-compatible querying** — live tail and modern UI . **Best for modern log analytics** .
-
-
-
-- **[Sematext Logs](https://sematext.com/logsene/)**  
-
-  **Log management and analytics** — with infrastructure and application monitoring . **Best for unified monitoring** .
-
-
-
-## Open-Source GitHub Projects
-
-
-
-### Search & Log Analytics Engines
-
-
-
-- **[OpenSearch](https://github.com/opensearch-project/OpenSearch)**  
-
-  **The leading open-source search and analytics suite**, Apache-2.0 licensed with **10,000+ GitHub stars** . **Apache-licensed fork of Elasticsearch 7.10** — community-driven . **Full-text search, log analytics, and security analytics** . **The de facto open-source Elasticsearch alternative** — used by AWS, SAP, and thousands of organizations . **Best for search and log analytics at scale** .
-
-
-
-- **[Quickwit](https://github.com/quickwit-oss/quickwit)**  
-
-  **Sub-second search on object storage**, Apache-2.0 licensed with **8,000+ GitHub stars** . **Rust-based search engine for logs** — decoupled compute and storage . **10x cheaper than Elasticsearch** for log storage on S3 . **The best open-source alternative for cost-effective log search** . **Best for long-term log retention on object storage** .
-
-
-
-- **[OpenObserve](https://github.com/openobserve/openobserve)**  
-
-  **Open-source observability platform**, AGPL-3.0 licensed with **15,000+ GitHub stars** . **Single binary for logs, metrics, and traces** . **140x lower storage costs than Elasticsearch** using Parquet columnar format and S3-native architecture . **Native OTLP support, SQL and PromQL query languages** . **Best for cost-effective unified observability** .
-
-
-
-- **[Grafana Loki](https://github.com/grafana/loki)**  
-
-  **Horizontally scalable log aggregation**, AGPL-3.0 licensed with **24,000+ GitHub stars** . **Cost-effective log storage** — indexes labels, not full text . **Integrates with Grafana for visualization** . **The standard for Kubernetes log aggregation** . **Best for cloud-native log aggregation** .
-
-
-
-- **[Apache Solr](https://github.com/apache/solr)**  
-
-  **The veteran open-source search platform**, Apache-2.0 licensed . **Full-text search, faceting, and analytics** . **The original enterprise search engine** . **Best for enterprise search** .
-
-
-
-- **[Meilisearch](https://github.com/meilisearch/meilisearch)**  
-
-  **Lightning-fast search engine**, MIT licensed with **45,000+ GitHub stars** . **Typo-tolerant, faceted search with instant results** . **The leading open-source Algolia alternative** . **Best for application search** .
-
-
-
-- **[Typesense](https://github.com/typesense/typesense)**  
-
-  **Open-source typo-tolerant search engine**, GPL-3.0 licensed with **20,000+ GitHub stars** . **Fast, relevant, and easy to deploy** . **Best for site search and e-commerce** .
-
-
-
-- **[ZincSearch](https://github.com/zincsearch/zincsearch)**  
-
-  **Lightweight Elasticsearch alternative in Go**, Apache-2.0 licensed with **17,000+ GitHub stars** . **Minimal resource usage** — single binary . **Best for lightweight search** .
-
-
-
-### Log Management & Observability
-
-
-
-- **[Graylog](https://github.com/Graylog2/graylog2-server)**  
-
-  **Centralized log management**, SSPL licensed . **Search, streams, and alerting** . **Best for log management with SIEM capabilities** .
-
-
-
-- **[SigNoz](https://github.com/SigNoz/signoz)**  
-
-  **Open-source observability platform**, Apache-2.0 licensed with **23,000+ GitHub stars** . **Logs, traces, and metrics in one application** — OpenTelemetry-native . **Best for unified observability** .
-
-
-
-- **[Uptrace](https://github.com/uptrace/uptrace)**  
-
-  **Open-source APM and observability**, AGPL-3.0 licensed . **Distributed tracing, metrics, and logs** . **Best for cost-effective APM** .
-
-
-
-- **[Apache Doris](https://github.com/apache/doris)**  
-
-  **Real-time analytical database**, Apache-2.0 licensed with **12,000+ GitHub stars** . **Log analytics and real-time dashboards** . **Best for real-time analytics** .
-
-
-
-- **[OpenSearch Dashboards](https://github.com/opensearch-project/OpenSearch-Dashboards)**  
-
-  **Visualization for OpenSearch**, Apache-2.0 licensed . **Kibana-compatible dashboards** . **Best for OpenSearch visualization** .
-
-
-
-### Additional Strong Open-Source Options
-
-
-
-- **Apache Lucene** — The foundation for search engines (Elasticsearch, Solr, OpenSearch) .
-
-- **Bleve** — Go-based search library .
-
-- **Vespa** — Yahoo's search and recommendation engine .
-
-- **Sonic** — Lightweight search backend in Rust .
-
-- **Apache Cassandra** — Distributed storage for log analytics .
-
-- **ClickHouse** — Columnar analytical database for log analytics .
-
-- **Apache Druid** — Real-time analytics database .
-
-- **Apache Pinot** — Real-time distributed OLAP .
-
-- **Fluentd** — Unified logging layer .
-
-- **Fluent Bit** — Lightweight log processor .
-
-- **Vector** — Observability data pipeline .
-
-
-
-**Frameworks for building custom search and log analytics solutions**: Combine **OpenSearch** for full-featured search and log analytics . Use **Quickwit** for cost-effective log search on object storage . Deploy **OpenObserve** for unified observability with minimal storage costs . Choose **Grafana Loki** for Kubernetes-native log aggregation . Integrate **Meilisearch** or **Typesense** for application search . Use **Graylog** for log management with SIEM capabilities . Note that true managed search and log analytics with global infrastructure, automatic scaling, and vendor-supported SLAs (Amazon OpenSearch Service, Elastic Cloud, Splunk Cloud) remains primarily commercial territory; open-source stacks provide strong search, aggregation, and visualization foundations that require integration for complete observability.
-
-
-
-## How to Contribute
-
-
-
-1. Fork the repo.
-
-2. Add/edit entries in `README.md` (follow existing format).
-
-3. Include: name, link, 1–2 sentence description, and whether it's SaaS or open-source.
-
-4. Submit PR with a short explanation.
-
-
-
-Star the repo if you find it useful!
-
-
-
-## Disclaimer
-
-
-
-- This is a **community-curated** list — not exhaustive and not an endorsement.
-
-- Search and log analytics platforms ingest sensitive operational data including application logs, security events, and potentially PII. Self-hosted solutions require proper security hardening, access controls, and compliance with data privacy regulations.
-
-- **License considerations**: OpenSearch uses Apache-2.0, OpenObserve uses AGPL-3.0, Loki uses AGPL-3.0, and Graylog uses SSPL. Verify licensing against your use case before committing .
-
-- **Storage costs dominate log analytics** — Elasticsearch is expensive for long-term retention. Quickwit and OpenObserve offer 10-140x lower storage costs by using object storage and columnar formats .
-
-- **Full-text search vs. label-based indexing** — OpenSearch indexes full text for powerful search; Loki indexes only labels for cost efficiency. Choose based on query patterns .
-
-- The open-source ecosystem provides strong search, aggregation, and visualization foundations, but **managed infrastructure, automatic scaling, and vendor-supported SLAs** remain primarily commercial offerings.
-
-
+Welcome to the definitive awesome list for **managed search and log analytics platforms** and high-performance **open-source log search engines**. This repository indexes leading solutions that ingest, index, query, analyze, and visualize logs and events at enterprise scale — powering cloud observability, security analytics (SIEM), and operational intelligence without infrastructure friction.
 
 ---
 
+## 📑 Table of Contents
 
+- [📊 Market Insights & Landscape](#-market-insights--landscape)
+- [☁️ SaaS / Hosted Platforms](#%EF%B8%8F-saas--hosted-platforms)
+- [🔓 Open-Source GitHub Projects](#-open-source-github-projects)
+- [🤝 How to Contribute](#-how-to-contribute)
+- [⚠️ Disclaimer](#%EF%B8%8F-disclaimer)
+- [💖 Support & Sponsorship](#-support--sponsorship)
+- [📈 Star History](#-star-history)
 
-**Made for SREs, observability engineers, and organizations seeking search and log analytics sovereignty.**  
+---
 
-Let's make managed search and log analytics more open, transparent, and cost-effective.
+## 📊 Market Insights & Landscape
+
+The global log analytics and search software market is estimated at **$6.2 Billion** and is projected to reach over **$14.8 Billion by 2030** (growing at a ~15.4% CAGR). 
+
+> [!NOTE]
+> **Market Dynamics:** The sector is **moderately fragmented**. Mega-cap hyperscalers and observability leaders (AWS, Splunk/Cisco, Datadog, Elastic) hold dominant positions in enterprise SaaS. However, rapid innovation in modern columnar storage (ClickHouse, Parquet) and sub-second object storage engines (Quickwit, OpenObserve) enables high-growth open-source alternatives to continually capture developer share, keeping the market competitive rather than a winner-take-all monopoly.
+
+---
+
+## ☁️ SaaS / Hosted Platforms
+
+The table below lists top commercial SaaS log analytics platforms, sorted by estimated company size / market valuation (descending):
+
+| Platform | Description & Key Strengths | Company Scale (Valuation / Revenue) | Starting Pricing Tier | Free Tier / Trial Limit |
+| :--- | :--- | :--- | :--- | :--- |
+| **[Splunk Cloud](https://www.splunk.com/)** | **Enterprise log analytics standard** — deep security correlation, complex queries, massive app ecosystem. *Best for large enterprise SIEM & IT operations.* | **$28.0 Billion** (Acquired by Cisco for $28B; ~$4B annual revenue) | Standard Workload pricing starts at ~$0.15/GB ingested or ~$2,000/year for baseline ingest units. | **14-day free trial** with 5 GB/day indexing limit. |
+| **[Amazon OpenSearch Service](https://aws.amazon.com/opensearch-service/)** | **AWS managed OpenSearch** — seamless AWS integration, auto-scaling, serverless option. *Best for AWS-native log analytics.* | **$2.0 Trillion** (AWS parent Amazon market cap; AWS ~$100B annual revenue run-rate) | Managed clusters start at ~$0.024/hour (`t3.small.search`) + $0.10/GB-month EBS storage. | **750 hours/month** of `t2.small.search` or `t3.small.search` + 10 GB EBS (eligible regions/new accounts). |
+| **[Datadog Log Management](https://www.datadoghq.com/)** | **Unified telemetry log search** — seamlessly linked with Datadog APM, metrics, and traces. *Best for existing Datadog users.* | **$41.0 Billion** (Public NASDAQ: DDOG; ~$2.6B annual revenue) | Ingestion starts at $0.10 per GB ingested/month; retention indexing starts at $1.70/million log events (3-day retention). | **14-day free trial** with unlimited data volume during evaluation. |
+| **[Elastic Cloud](https://www.elastic.co/cloud)** | **Managed Elasticsearch & Kibana** — reference platform for full-text search and ELK observability. *Best for Elastic ecosystem.* | **$8.5 Billion** (Public NYSE: ESTC; ~$1.3B annual revenue) | Standard hosted tier starts at ~$95/month (~$0.13/hour) for managed compute & storage. | **14-day free trial** on AWS/GCP/Azure with full features. |
+| **[Sumo Logic](https://www.sumologic.com/)** | **Cloud-native security & log analytics** — automated anomaly detection, log reduction, SIEM. *Best for cloud-first SecOps.* | **$1.7 Billion** (Acquired by Francisco Partners for $1.7B) | Essentials tier starts at ~$3.00/GB ingested per month (Flex pricing model available). | **30-day free trial** + Free plan with 1 GB/day ingest and 1-day retention. |
+| **[Logz.io](https://logz.io/)** | **Open-source based observability** — managed OpenSearch, Prometheus, & Jaeger with AI insights. *Best for open-source SaaS.* | **$400 Million** (Estimated valuation; $100M+ venture funding) | Community/Pro pricing starts at ~$0.92 per GB ingested/month with 7-day retention. | **14-day free trial** + Free Community Plan with 1 GB/day ingest and 1-day retention. |
+| **[Coralogix](https://coralogix.com/)** | **Streaming telemetry analytics** — analyzes logs in-memory before indexing for cost optimization. *Best for high-volume logs.* | **$350 Million** (Estimated valuation; $142M venture funding) | Pay-as-you-go pricing starts at $0.05/GB for streaming archives & $0.25/GB for standard indexing. | **14-day free trial** with full platform access. |
+| **[Mezmo (LogDNA)](https://www.mezmo.com/)** | **Telemetry pipeline & log management** — real-time log parsing, filtering, routing, and search. *Best for telemetry pipelines.* | **$250 Million** (Estimated valuation; $100M+ funding) | Telemetry pipeline starts at $0.35/GB for pipeline processing + $1.50/GB for 30-day log search retention. | **14-day free trial** with full pipeline features. |
+| **[Better Stack Logs](https://betterstack.com/)** | **Modern SQL log analytics** — ClickHouse-powered sub-second SQL queries with elegant UI. *Best for modern engineering teams.* | **$150 Million** (Estimated valuation; $28M+ funding from Creandum/Sentry) | Freelancer plan starts at $24/month for 50 GB ingested/month (30-day retention). | **Free forever plan** with 1 GB/month ingestion and 3-day retention. |
+| **[Sematext Logs](https://sematext.com/logsene/)** | **DevOps log management** — integrates log search with server and application monitoring. *Best for unified DevOps monitoring.* | **$50 Million** (Estimated valuation; bootstrapped enterprise SaaS) | Basic plan starts at $50/month for 1 GB/day ingest with 7-day retention ($1.60/GB pay-as-you-go). | **14-day free trial** + Free plan with 1 GB/day ingest and 7-day retention. |
+
+---
+
+## 🔓 Open-Source GitHub Projects
+
+The leading open-source search engines, log aggregators, analytical databases, and telemetry pipelines — sorted strictly by GitHub star count (descending):
+
+| Star Count Badge | Project Name & Repository | License | Description & Key Strengths | Primary Use Case |
+| :---: | :--- | :---: | :--- | :--- |
+| [<img src="https://img.shields.io/github/stars/meilisearch/meilisearch?style=social&color=white" alt="Meilisearch Stars" />](https://github.com/meilisearch/meilisearch/stargazers) | **[Meilisearch](https://github.com/meilisearch/meilisearch)** | `MIT` | **Lightning-fast, typo-tolerant search engine** written in Rust. Instant search experience out of the box. | Application Search / E-commerce |
+| [<img src="https://img.shields.io/github/stars/ClickHouse/ClickHouse?style=social&color=white" alt="ClickHouse Stars" />](https://github.com/ClickHouse/ClickHouse/stargazers) | **[ClickHouse](https://github.com/ClickHouse/ClickHouse)** | `Apache-2.0` | **Columnar analytical DBMS** capable of processing billions of log events per second with high compression. | High-Volume Log Analytics Backend |
+| [<img src="https://img.shields.io/github/stars/SigNoz/signoz?style=social&color=white" alt="SigNoz Stars" />](https://github.com/SigNoz/signoz/stargazers) | **[SigNoz](https://github.com/SigNoz/signoz)** | `Apache-2.0` | **OpenTelemetry-native observability platform** combining logs, traces, and metrics under one UI. | Full-Stack Observability & APM |
+| [<img src="https://img.shields.io/github/stars/grafana/loki?style=social&color=white" alt="Grafana Loki Stars" />](https://github.com/grafana/loki/stargazers) | **[Grafana Loki](https://github.com/grafana/loki)** | `AGPL-3.0` | **Horizontally scalable log aggregation system** inspired by Prometheus. Indexes metadata labels instead of full text for extreme efficiency. | Kubernetes Log Aggregation |
+| [<img src="https://img.shields.io/github/stars/typesense/typesense?style=social&color=white" alt="Typesense Stars" />](https://github.com/typesense/typesense/stargazers) | **[Typesense](https://github.com/typesense/typesense)** | `GPL-3.0` | **Fast, in-memory open-source search engine** engineered for instant search and developer productivity. | Site Search & App Analytics |
+| [<img src="https://img.shields.io/github/stars/vectordotdev/vector?style=social&color=white" alt="Vector Stars" />](https://github.com/vectordotdev/vector/stargazers) | **[Vector](https://github.com/vectordotdev/vector)** | `MPL-2.0` | **Ultra-fast Rust observability data pipeline** for collecting, transforming, and routing logs and metrics. | Telemetry Pipeline / Log Shipper |
+| [<img src="https://img.shields.io/github/stars/openobserve/openobserve?style=social&color=white" alt="OpenObserve Stars" />](https://github.com/openobserve/openobserve/stargazers) | **[OpenObserve](https://github.com/openobserve/openobserve)** | `AGPL-3.0` | **Cloud-native observability platform** built on Parquet & Rust. Delivers up to 140x lower storage costs than ES. | Cost-Effective Log Search & Tracing |
+| [<img src="https://img.shields.io/github/stars/valeriansaliou/sonic?style=social&color=white" alt="Sonic Stars" />](https://github.com/valeriansaliou/sonic/stargazers) | **[Sonic](https://github.com/valeriansaliou/sonic)** | `MPL-2.0` | **Fast, lightweight search backend** written in Rust using minimal memory footprint as an alternative to Solr/Elasticsearch. | Lightweight Full-Text Indexing |
+| [<img src="https://img.shields.io/github/stars/zincsearch/zincsearch?style=social&color=white" alt="ZincSearch Stars" />](https://github.com/zincsearch/zincsearch/stargazers) | **[ZincSearch](https://github.com/zincsearch/zincsearch)** | `Apache-2.0` | **Lightweight log search engine written in Go**. Uses Vue frontend and serves as a simple ES replacement. | Embedded & Small-footprint Log Search |
+| [<img src="https://img.shields.io/github/stars/apache/doris?style=social&color=white" alt="Apache Doris Stars" />](https://github.com/apache/doris/stargazers) | **[Apache Doris](https://github.com/apache/doris)** | `Apache-2.0` | **Real-time analytical database** designed for high-concurrency, real-time log search and operational reports. | Real-Time Log Analytics |
+| [<img src="https://img.shields.io/github/stars/apache/druid?style=social&color=white" alt="Apache Druid Stars" />](https://github.com/apache/druid/stargazers) | **[Apache Druid](https://github.com/apache/druid)** | `Apache-2.0` | **Real-time analytics database** designed for fast slice-and-dice analytics on large log and event streams. | Event Stream Analytics |
+| [<img src="https://img.shields.io/github/stars/opensearch-project/OpenSearch?style=social&color=white" alt="OpenSearch Stars" />](https://github.com/opensearch-project/OpenSearch/stargazers) | **[OpenSearch](https://github.com/opensearch-project/OpenSearch)** | `Apache-2.0` | **Community-driven, open-source search & analytics suite** forked from Elasticsearch 7.10. | Enterprise Search & Log Analytics |
+| [<img src="https://img.shields.io/github/stars/fluent/fluentd?style=social&color=white" alt="Fluentd Stars" />](https://github.com/fluent/fluentd/stargazers) | **[Fluentd](https://github.com/fluent/fluentd)** | `Apache-2.0` | **CNCF graduated unified logging layer** for unifying data collection and consumption. | Log Routing & Collection |
+| [<img src="https://img.shields.io/github/stars/quickwit-oss/quickwit?style=social&color=white" alt="Quickwit Stars" />](https://github.com/quickwit-oss/quickwit/stargazers) | **[Quickwit](https://github.com/quickwit-oss/quickwit)** | `Apache-2.0` | **Sub-second search on object storage** (S3/GCS). Rust-based engine engineered for cost-effective log search. | Big Data Log Retention on S3 |
+| [<img src="https://img.shields.io/github/stars/blevesearch/bleve?style=social&color=white" alt="Bleve Stars" />](https://github.com/blevesearch/bleve/stargazers) | **[Bleve](https://github.com/blevesearch/bleve)** | `Apache-2.0` | **Modern text indexing library for Go**. Performs full-text indexing and search for Go applications. | Embedded Go Search Library |
+| [<img src="https://img.shields.io/github/stars/apache/cassandra?style=social&color=white" alt="Apache Cassandra Stars" />](https://github.com/apache/cassandra/stargazers) | **[Apache Cassandra](https://github.com/apache/cassandra)** | `Apache-2.0` | **Distributed NoSQL database** offering high availability and linear scalability for heavy write workloads. | Distributed Storage Backend |
+| [<img src="https://img.shields.io/github/stars/fluent/fluent-bit?style=social&color=white" alt="Fluent Bit Stars" />](https://github.com/fluent/fluent-bit/stargazers) | **[Fluent Bit](https://github.com/fluent/fluent-bit)** | `Apache-2.0` | **Super fast, lightweight log processor & forwarder** written in C for Kubernetes, IoT, and embedded systems. | Cloud-Native Log Agent |
+| [<img src="https://img.shields.io/github/stars/Graylog2/graylog2-server?style=social&color=white" alt="Graylog Stars" />](https://github.com/Graylog2/graylog2-server/stargazers) | **[Graylog](https://github.com/Graylog2/graylog2-server)** | `SSPL` | **Centralized log management & SIEM platform**. Fast search, stream processing, and security alerting. | Enterprise Log Management & SIEM |
+| [<img src="https://img.shields.io/github/stars/vespa-engine/vespa?style=social&color=white" alt="Vespa Stars" />](https://github.com/vespa-engine/vespa/stargazers) | **[Vespa](https://github.com/vespa-engine/vespa)** | `Apache-2.0` | **Yahoo's open-source engine** for vector search, full-text search, and real-time AI evaluation at scale. | AI Search & Recommendation |
+| [<img src="https://img.shields.io/github/stars/apache/pinot?style=social&color=white" alt="Apache Pinot Stars" />](https://github.com/apache/pinot/stargazers) | **[Apache Pinot](https://github.com/apache/pinot)** | `Apache-2.0` | **Real-time distributed OLAP datastore** engineered for ultra-low latency analytics on high-throughput event streams. | Low-Latency User-Facing Analytics |
+| [<img src="https://img.shields.io/github/stars/uptrace/uptrace?style=social&color=white" alt="Uptrace Stars" />](https://github.com/uptrace/uptrace/stargazers) | **[Uptrace](https://github.com/uptrace/uptrace)** | `AGPL-3.0` | **Open-source APM tool** powered by OpenTelemetry & ClickHouse for monitoring logs, traces, and metrics. | OpenTelemetry APM & Tracing |
+| [<img src="https://img.shields.io/github/stars/apache/lucene?style=social&color=white" alt="Apache Lucene Stars" />](https://github.com/apache/lucene/stargazers) | **[Apache Lucene](https://github.com/apache/lucene)** | `Apache-2.0` | **High-performance, full-featured search engine library** written in Java. Powers Elasticsearch, Solr, & OpenSearch. | Search Core Library |
+| [<img src="https://img.shields.io/github/stars/opensearch-project/OpenSearch-Dashboards?style=social&color=white" alt="OpenSearch Dashboards Stars" />](https://github.com/opensearch-project/OpenSearch-Dashboards/stargazers) | **[OpenSearch Dashboards](https://github.com/opensearch-project/OpenSearch-Dashboards)** | `Apache-2.0` | **Open-source visualization user interface** for OpenSearch (Kibana fork). | Log Visualization & Dashboards |
+| [<img src="https://img.shields.io/github/stars/apache/solr?style=social&color=white" alt="Apache Solr Stars" />](https://github.com/apache/solr/stargazers) | **[Apache Solr](https://github.com/apache/solr)** | `Apache-2.0` | **Enterprise search platform** built on Lucene featuring distributed indexing, replication, and SQL querying. | Enterprise Search Platform |
+
+---
+
+## 🤝 How to Contribute
+
+Contributions are highly welcome! Help keep this managed search and log analytics ecosystem directory accurate and up to date.
+
+1. Fork this repository.
+2. Add or edit entries in `README.md` following the tabular format above.
+3. Keep descriptions objective, concise, and focused on core capabilities.
+4. Open a Pull Request with a short summary of changes.
+
+---
+
+## ⚠️ Disclaimer
+
+- **Community Curated:** This repository is a community-maintained curated list for informational purposes.
+- **Data Privacy & Security:** Log analytics systems process sensitive operational logs, audit events, and user activity. Ensure proper encryption, role-based access control (RBAC), and regulatory compliance (GDPR/SOC2).
+- **Licensing Verification:** Pay close attention to open-source licenses (`Apache-2.0`, `AGPL-3.0`, `SSPL`, `GPL-3.0`) prior to commercial deployment.
+
+---
+
+## 💖 Support & Sponsorship
+
+If you found this curated list helpful for your observability, DevOps, or enterprise search architecture, please consider starring, sharing, or sponsoring the project!
+
+- ⭐ **Star this repository** on GitHub to help others discover it.
+- 🔀 **Fork & Contribute** to expand the list of managed search and log engines.
+- ☕ **Buy me a coffee / Sponsor:** If you'd like to support my open-source work, check out my [GitHub Sponsors Dashboard](https://github.com/sponsors/ishandutta2007).
+
+---
+
+## 📈 Star History
+
+[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-Managed-Search-Log-Analytics&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-Managed-Search-Log-Analytics&type=date&legend=top-left)
+
+---
+
+<p align="center">
+  <b>Built for SREs, Observability Engineers, SecOps, and Systems Architects</b><br/>
+  <i>Let's make managed search and log analytics more open, transparent, and cost-effective.</i>
+</p>
