@@ -62,9 +62,9 @@ The table below lists top commercial SaaS log analytics platforms, sorted by est
 
 ## 🔓 Open-Source GitHub Projects
 
-The leading open-source search engines, log aggregators, analytical databases, and telemetry pipelines — sorted strictly by GitHub star count (descending):
+The leading open-source search engines, log aggregators, analytical databases, and telemetry pipelines — sorted strictly by GitHub Stars_Count (descending):
 
-| Star Count Badge | Project Name & Repository | License | Description & Key Strengths | Primary Use Case |
+| Stars_Count Badge | Project Name & Repository | License | Description & Key Strengths | Primary Use Case |
 | :---: | :--- | :---: | :--- | :--- |
 | [<img src="https://img.shields.io/github/stars/meilisearch/meilisearch?style=social&color=white" alt="Meilisearch Stars" />](https://github.com/meilisearch/meilisearch/stargazers) | **[Meilisearch](https://github.com/meilisearch/meilisearch)** | `MIT` | **Lightning-fast, typo-tolerant search engine** written in Rust. Instant search experience out of the box. | Application Search / E-commerce |
 | [<img src="https://img.shields.io/github/stars/ClickHouse/ClickHouse?style=social&color=white" alt="ClickHouse Stars" />](https://github.com/ClickHouse/ClickHouse/stargazers) | **[ClickHouse](https://github.com/ClickHouse/ClickHouse)** | `Apache-2.0` | **Columnar analytical DBMS** capable of processing billions of log events per second with high compression. | High-Volume Log Analytics Backend |
