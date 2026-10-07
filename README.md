@@ -62,7 +62,7 @@ The table below lists top commercial SaaS log analytics platforms, sorted by est
 
 ## 🔓 Open-Source GitHub Projects
 
-The leading open-source search engines, log aggregators, analytical databases, and telemetry pipelines — sorted strictly by GitHub Stars_Count (descending):
+The leading open-source search engines, log aggregators, analytical databases, and telemetry pipelines — sorted strictly by GitHub_Stars_Count (descending):
 
 | Stars_Count Badge | Project Name & Repository | License | Description & Key Strengths | Primary Use Case |
 | :---: | :--- | :---: | :--- | :--- |
